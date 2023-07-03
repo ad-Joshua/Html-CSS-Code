@@ -1,0 +1,77 @@
+General Technique:
+1. Create element with HTML.
+2. Style with CSS one-by-one.
+
+--------------------------------------------------------------
+
+text.html notes
+p- element name
+video-title - class name
+Class name has more specificity than element name
+so margin-bottom from class is considered
+
+--------------------------------------------------------------
+
+for different entities search google
+like > entity when googled you get &#62;
+
+--------------------------------------------------------------
+
+to sytle only a part of the code we can use Span.
+<p>
+  Shop early for 
+  <strong>best selection</strong>  of       
+  <u>holiday favourites</u>.
+  <span class="span-example">Shop now</span>  &#62;
+</p>
+
+.span-example{
+  color:brown;
+  margin-left: 25px;
+}
+
+.span-example:hover{
+  text-decoration: underline;
+}
+
+--------------------------------------------------------------
+<html>
+  <head></head>
+  <bod></bod>
+</html>
+element inside a elementis called as Nesting
+
+<html></html>--- every file has only one html and this element
+entire web page.
+html is designed for nesting.
+its designed for nesting one head and one body element.
+everything on over page will either go inside the head or inside 
+body element.
+Body and head elements also designed for nesting,they also have 
+other elements inside them.
+Body element - contians all the elements visible on the page.
+Ex: paragraph(<p></p>), button<button></button>, 
+Anchor tag <a></a>, Form <form></form>, Input<Input></Input> etc.
+head element - all the elements which r not visible on the page.
+Ex: Title, Style, Link.
+
+we can get fonts from Google fonts.
+we just need to select and copy the fonts. then past it in the 
+head tag in our html.
+
+--------------------------------------------------------------
+just as link void tag connects html with css using rel and href
+img void tag also connects html body code with 
+any images given in img tag using src
+
+--------------------------------------------------------------
+in html there are three types of elements 
+1.Block elements
+takes the entire line
+Ex: paragraph element
+2.inline - block elementis
+only takes the space required or needed
+ex: image element and search element
+3.inline element
+appears within a line of text
+ex: Strong which makes a some words in line bold.
